@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F60C65E81D35435400624FA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60C65E71D35435400624FA1 /* AppDelegate.swift */; };
+		F60C65EA1D35435400624FA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60C65E91D35435400624FA1 /* ViewController.swift */; };
+		F60C65ED1D35435500624FA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60C65EB1D35435500624FA1 /* Main.storyboard */; };
+		F60C65EF1D35435500624FA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60C65EE1D35435500624FA1 /* Assets.xcassets */; };
+		F60C65F21D35435500624FA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60C65F01D35435500624FA1 /* LaunchScreen.storyboard */; };
+		F60C65FD1D35435500624FA1 /* EjemploRutaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60C65FC1D35435500624FA1 /* EjemploRutaTests.swift */; };
+		F60C66081D35435500624FA1 /* EjemploRutaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60C66071D35435500624FA1 /* EjemploRutaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F60C65F91D35435500624FA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F60C65DC1D35435300624FA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F60C65E31D35435300624FA1;
+			remoteInfo = EjemploRuta;
+		};
+		F60C66041D35435500624FA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F60C65DC1D35435300624FA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F60C65E31D35435300624FA1;
+			remoteInfo = EjemploRuta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F60C65E41D35435300624FA1 /* EjemploRuta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EjemploRuta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60C65E71D35435400624FA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F60C65E91D35435400624FA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F60C65EC1D35435500624FA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F60C65EE1D35435500624FA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F60C65F11D35435500624FA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F60C65F31D35435500624FA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F60C65F81D35435500624FA1 /* EjemploRutaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EjemploRutaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60C65FC1D35435500624FA1 /* EjemploRutaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploRutaTests.swift; sourceTree = "<group>"; };
+		F60C65FE1D35435500624FA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F60C66031D35435500624FA1 /* EjemploRutaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EjemploRutaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60C66071D35435500624FA1 /* EjemploRutaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploRutaUITests.swift; sourceTree = "<group>"; };
+		F60C66091D35435500624FA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F60C65E11D35435300624FA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F60C65F51D35435500624FA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F60C66001D35435500624FA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F60C65DB1D35435300624FA1 = {
+			isa = PBXGroup;
+			children = (
+				F60C65E61D35435400624FA1 /* EjemploRuta */,
+				F60C65FB1D35435500624FA1 /* EjemploRutaTests */,
+				F60C66061D35435500624FA1 /* EjemploRutaUITests */,
+				F60C65E51D35435300624FA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F60C65E51D35435300624FA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F60C65E41D35435300624FA1 /* EjemploRuta.app */,
+				F60C65F81D35435500624FA1 /* EjemploRutaTests.xctest */,
+				F60C66031D35435500624FA1 /* EjemploRutaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F60C65E61D35435400624FA1 /* EjemploRuta */ = {
+			isa = PBXGroup;
+			children = (
+				F60C65E71D35435400624FA1 /* AppDelegate.swift */,
+				F60C65E91D35435400624FA1 /* ViewController.swift */,
+				F60C65EB1D35435500624FA1 /* Main.storyboard */,
+				F60C65EE1D35435500624FA1 /* Assets.xcassets */,
+				F60C65F01D35435500624FA1 /* LaunchScreen.storyboard */,
+				F60C65F31D35435500624FA1 /* Info.plist */,
+			);
+			path = EjemploRuta;
+			sourceTree = "<group>";
+		};
+		F60C65FB1D35435500624FA1 /* EjemploRutaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F60C65FC1D35435500624FA1 /* EjemploRutaTests.swift */,
+				F60C65FE1D35435500624FA1 /* Info.plist */,
+			);
+			path = EjemploRutaTests;
+			sourceTree = "<group>";
+		};
+		F60C66061D35435500624FA1 /* EjemploRutaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F60C66071D35435500624FA1 /* EjemploRutaUITests.swift */,
+				F60C66091D35435500624FA1 /* Info.plist */,
+			);
+			path = EjemploRutaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F60C65E31D35435300624FA1 /* EjemploRuta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F60C660C1D35435500624FA1 /* Build configuration list for PBXNativeTarget "EjemploRuta" */;
+			buildPhases = (
+				F60C65E01D35435300624FA1 /* Sources */,
+				F60C65E11D35435300624FA1 /* Frameworks */,
+				F60C65E21D35435300624FA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EjemploRuta;
+			productName = EjemploRuta;
+			productReference = F60C65E41D35435300624FA1 /* EjemploRuta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F60C65F71D35435500624FA1 /* EjemploRutaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F60C660F1D35435500624FA1 /* Build configuration list for PBXNativeTarget "EjemploRutaTests" */;
+			buildPhases = (
+				F60C65F41D35435500624FA1 /* Sources */,
+				F60C65F51D35435500624FA1 /* Frameworks */,
+				F60C65F61D35435500624FA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F60C65FA1D35435500624FA1 /* PBXTargetDependency */,
+			);
+			name = EjemploRutaTests;
+			productName = EjemploRutaTests;
+			productReference = F60C65F81D35435500624FA1 /* EjemploRutaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F60C66021D35435500624FA1 /* EjemploRutaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F60C66121D35435500624FA1 /* Build configuration list for PBXNativeTarget "EjemploRutaUITests" */;
+			buildPhases = (
+				F60C65FF1D35435500624FA1 /* Sources */,
+				F60C66001D35435500624FA1 /* Frameworks */,
+				F60C66011D35435500624FA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F60C66051D35435500624FA1 /* PBXTargetDependency */,
+			);
+			name = EjemploRutaUITests;
+			productName = EjemploRutaUITests;
+			productReference = F60C66031D35435500624FA1 /* EjemploRutaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F60C65DC1D35435300624FA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "León Felipe Guevara Chávez";
+				TargetAttributes = {
+					F60C65E31D35435300624FA1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F60C65F71D35435500624FA1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F60C65E31D35435300624FA1;
+					};
+					F60C66021D35435500624FA1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F60C65E31D35435300624FA1;
+					};
+				};
+			};
+			buildConfigurationList = F60C65DF1D35435300624FA1 /* Build configuration list for PBXProject "EjemploRuta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F60C65DB1D35435300624FA1;
+			productRefGroup = F60C65E51D35435300624FA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F60C65E31D35435300624FA1 /* EjemploRuta */,
+				F60C65F71D35435500624FA1 /* EjemploRutaTests */,
+				F60C66021D35435500624FA1 /* EjemploRutaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F60C65E21D35435300624FA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60C65F21D35435500624FA1 /* LaunchScreen.storyboard in Resources */,
+				F60C65EF1D35435500624FA1 /* Assets.xcassets in Resources */,
+				F60C65ED1D35435500624FA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F60C65F61D35435500624FA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F60C66011D35435500624FA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F60C65E01D35435300624FA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60C65EA1D35435400624FA1 /* ViewController.swift in Sources */,
+				F60C65E81D35435400624FA1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F60C65F41D35435500624FA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60C65FD1D35435500624FA1 /* EjemploRutaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F60C65FF1D35435500624FA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60C66081D35435500624FA1 /* EjemploRutaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F60C65FA1D35435500624FA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F60C65E31D35435300624FA1 /* EjemploRuta */;
+			targetProxy = F60C65F91D35435500624FA1 /* PBXContainerItemProxy */;
+		};
+		F60C66051D35435500624FA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F60C65E31D35435300624FA1 /* EjemploRuta */;
+			targetProxy = F60C66041D35435500624FA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F60C65EB1D35435500624FA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F60C65EC1D35435500624FA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F60C65F01D35435500624FA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F60C65F11D35435500624FA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F60C660A1D35435500624FA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F60C660B1D35435500624FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F60C660D1D35435500624FA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EjemploRuta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonguevara.EjemploRuta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F60C660E1D35435500624FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EjemploRuta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonguevara.EjemploRuta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F60C66101D35435500624FA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EjemploRutaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonguevara.EjemploRutaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EjemploRuta.app/EjemploRuta";
+			};
+			name = Debug;
+		};
+		F60C66111D35435500624FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EjemploRutaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonguevara.EjemploRutaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EjemploRuta.app/EjemploRuta";
+			};
+			name = Release;
+		};
+		F60C66131D35435500624FA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EjemploRutaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonguevara.EjemploRutaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EjemploRuta;
+			};
+			name = Debug;
+		};
+		F60C66141D35435500624FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EjemploRutaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonguevara.EjemploRutaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EjemploRuta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F60C65DF1D35435300624FA1 /* Build configuration list for PBXProject "EjemploRuta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F60C660A1D35435500624FA1 /* Debug */,
+				F60C660B1D35435500624FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F60C660C1D35435500624FA1 /* Build configuration list for PBXNativeTarget "EjemploRuta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F60C660D1D35435500624FA1 /* Debug */,
+				F60C660E1D35435500624FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F60C660F1D35435500624FA1 /* Build configuration list for PBXNativeTarget "EjemploRutaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F60C66101D35435500624FA1 /* Debug */,
+				F60C66111D35435500624FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F60C66121D35435500624FA1 /* Build configuration list for PBXNativeTarget "EjemploRutaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F60C66131D35435500624FA1 /* Debug */,
+				F60C66141D35435500624FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F60C65DC1D35435300624FA1 /* Project object */;
+}
